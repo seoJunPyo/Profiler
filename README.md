@@ -50,6 +50,8 @@ int main()
 ```
 측정을 시작하고 싶은 곳에 `PRO` 매크로 사용. 인수로는 생성될 객체명, 태그를 지정한다.
 
+## 지원 함수
+
 - `ProfileOutText` 함수
 해당 함수는 인수로 받은 파일 이름으로 `txt` 파일을 생성해 프로파일 결과를 저장한다.
 이 함수는 프로파일 중에도 호출하여 프로파일 결과를 중간에 확인할 수 있다.
@@ -57,7 +59,7 @@ int main()
 - `CreateProfileFileName` 함수
 파일 이름을 간편하게 생성하기 위한 함수. 기본 양식은 `Profile_YYYYMMDD_HHMMSS` 이다.
 
--`ProfileReset` 함수
+- `ProfileReset` 함수
 프로파일한 내용을 모두 초기화한다.
 
 
