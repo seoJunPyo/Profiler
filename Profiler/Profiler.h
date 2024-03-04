@@ -4,8 +4,8 @@
 
 #ifdef PROFILE
 
-#define PRO_BEGIN(TagName)	ProfileBegin(TagName)
-#define PRO_END(TagName)	ProfileEnd(TagName)
+#define PRO_BEGIN(TagName)	Profiler::ProfileBegin(_T(TagName))
+#define PRO_END(TagName)	Profiler::ProfileEnd(_T(TagName))
 #define PRO(Name, TagName)	Profiler::Profile Name = { _T(TagName) }
 #else
 #define PRO_BEGIN(TagName)

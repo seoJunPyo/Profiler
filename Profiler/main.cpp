@@ -7,8 +7,9 @@ int main()
 	while (i < 10)
 	{
 		{
-			PRO(AAA, "AAA");
+			PRO_BEGIN("dd");
 			Sleep(100);
+			PRO_END("dd");
 		}
 
 		i++;
