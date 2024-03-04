@@ -62,4 +62,5 @@ int main()
 - `ProfileReset` 함수
 프로파일한 내용을 모두 초기화한다.
 
-
+## 예외
+`PRO_BEGIN` 매크로 호출 후, 대응되는 `PRO_END`가 호출되지 않으면 `PRO_BEGIN`에서 예외를 발생시킨다.
